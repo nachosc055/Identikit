@@ -1,0 +1,172 @@
+
+nav {
+    background-color: rgb(146, 143, 143);
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    display: block;
+    margin-top: -16px;
+}
+
+
+    
+
+nav ul li a {
+    
+    text-decoration: none
+    
+}
+
+nav ul li a:visited {
+    color: black
+  }
+.Encabezado {
+    margin-top: 0px;
+    padding-top: 2px;
+    background-color: rgb(55, 55, 55);
+    height: 250px;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-weight: 450;
+    font-size: 35px;
+    color: white
+    
+}
+
+.Encabezado p {
+    margin-top: 5px
+}
+
+.Img1 {
+    margin-left: 1120px;
+    margin-top: -200px;
+    height: 500px;
+    width: 385px;
+
+}
+
+.cajageneral {
+    height: 250px;
+    width: 1000px;
+    margin-left: 65px;
+}
+
+.caja1 {
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: white;
+    height: 90px;
+    width: 400px;
+    margin-top: -595px;
+    margin-left: 575px;
+}
+
+.caja1 p{
+    font-family: "Roboto", sans-serif;
+    font-size: 33px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.caja2 {
+    margin-top: 85px;
+    margin-left: 20px;
+    width: 380px;
+    height: 250px;
+}
+
+.caja2 h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 500px;
+    text-decoration: underline;
+    margin-left: 100px;
+    margin-top: 0px;
+}
+
+.caja2 p {
+    margin-top: -15px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.caja2 img {
+    height: 50px;
+    width: 45x;
+    margin-left: 135px;
+    margin-top: 0px;
+}
+.caja3 {
+    margin-top: -280px;
+    margin-left: 550px;
+    width: 380px;
+    height: 250px;
+}
+
+.caja3 h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 500px;
+    text-decoration: underline;
+    margin-left: 100px;
+    margin-top: 0px;
+}
+
+.caja3 p {
+    margin-top: -15px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.caja3 img {
+    height: 50px;
+    width: 45x;
+    margin-left: 135px;
+    margin-top: 27px;
+}
+
+#Decoracion {
+    background-color: white;
+    height: 35px;
+    width: 165px;
+    margin-top: -35px;
+    margin-left: 635px;
+}
+
+
+#Decoracion p {
+    margin-left: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black
+    
+}
+
+
+#Word1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 555;
+    font-size: 35px;
+    margin-left: 1260px;
+    margin-top: 5px;
+}
+
+.item1 {
+    font-family: "Codystar", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    display: inline;
+    list-style-type: none;
+    margin-right: 85px;
+    margin-left: 60px;
+    color:white
+}
+
+.item1:hover {
+    color: black;
+}
+

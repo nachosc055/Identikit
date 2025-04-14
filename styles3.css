@@ -1,0 +1,100 @@
+
+
+nav {
+    display: block;
+    background-color: rgb(146, 143, 143);
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    display: block;
+    margin-top: -16px;
+}
+
+
+    
+
+nav ul li a {
+    text-decoration: none
+}
+
+
+  
+nav ul li a:visited {
+    color:black;
+}
+
+
+.item1 {
+    font-family: "Codystar", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    display: inline;
+    list-style-type: none;
+    margin-right: 85px;
+    margin-left: 60px;
+    color:white
+}
+
+.Box {
+
+    width: 70%;
+    height: 300px;
+    margin-top: 140px;
+    padding-top: 5px;
+    margin-left: 13.5%;
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    opacity: 0.4;
+    
+}
+
+.Box h1 {
+    font-family: "Dancing Script", cursive;
+}
+
+.Box h2 {
+    font-family: "Albert Sans", sans-serif;
+    text-decoration: solid;
+    border-style: solid;
+}
+
+.button1 {
+    position: relative;
+    background: #fff;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 30px;
+    transition: 0.5s;
+    margin-top: 25px;
+}
+
+.button1:hover {
+    box-shadow: 0 0 35px var(--clr);
+    letter-spacing: 0.25em;
+    background: var(--clr);
+    color: var(--clr);
+    
+}
+
+.button1:before {
+    content:'';
+    position: absolute;
+    inset: 2px;
+    background: #27282c;
+}
+
+.button1 span {
+    position: relative;
+    z-index: 1;
+}
+
+.generalbox {
+    margin-top: -15px;
+}

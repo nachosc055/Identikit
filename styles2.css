@@ -1,0 +1,123 @@
+
+
+nav {
+    display: block;
+    background-color: rgb(146, 143, 143);
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    display: block;
+    margin-top: -16px;
+}
+
+
+    
+
+nav ul li a {
+    text-decoration: none
+}
+
+
+  
+nav ul li a:visited {
+    color:black;
+}
+
+
+.Encabezado {
+    display: block;
+    margin-top: -90px;
+    padding-top: 15px;
+    padding-left: 35px;
+    background-color: rgb(55, 55, 55);
+    height: 75px;
+    text-align: bottom;
+    font-family: "Dancing Script", cursive;
+    font-weight: 450;
+    font-size: 35px;
+    color: white
+    
+}
+
+.img1 {
+    margin-left: 1350px;
+    padding-top: 5px;
+}
+
+
+.item1 {
+    font-family: "Codystar", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    display: inline;
+    list-style-type: none;
+    margin-right: 85px;
+    margin-left: 60px;
+    color:white
+}
+
+.item1:hover {
+    color: black;
+}
+
+.s1 {
+    background-color: rgb(146, 143, 143);
+    width: 20%;
+    height: 750px;
+    display: block;
+    margin-top: -35px;
+    
+}
+
+.s1 li {
+    margin-left: 0px;
+    margin-top: 10px;
+    color: white
+    
+}
+
+.s2 {
+
+    background-color: rgb(255 255, 255);
+    width: 80%;
+    height: 588px;
+    margin-top: -588px;
+    margin-left: 306px;
+    display: block;
+
+
+}
+.t1 {
+    margin-left: 300px;
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: -20px;
+    height: 40px;
+    display:block;
+    background-color: rgb(55, 55, 55)
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    
+}
+ol li a{
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+}
+
+ol li a:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px white;
+  }
+  
+ol li a:hover {
+    color: white;
+    text-shadow: 0 0 5px white;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ciencia - Trivia - Identikit</title>
+  <link rel="stylesheet" href="styles5.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Lilita+One&display=swap" rel="stylesheet" />
+  <link rel="icon" href="Imagenes/iconN.png" />
+</head>
+<body>
+
+  <h1>¿Qué significa la unidad de medida Watts?</h1>
+
+  <section id="s1" onclick="verificarRespuesta(this, true)">
+    <div class="box1">
+     
+      <h3>Unidad de potencia</h3>
+    </div>
+  </section>
+
+  <section id="s2" onclick="verificarRespuesta(this, false)">
+    <div class="box1">
+      <h3>Unidad de volumen</h3>
+    </div>
+  </section>
+
+  <div class="feedback" id="respuesta1"></div>
+
+  <h1>¿Cuál es el valor del número π?</h1>
+
+  <section id="s3" onclick="verificarRespuesta(this, true)">
+    <div class="box1">
+      <h3>3.1416</h3>
+    </div>
+  </section>
+
+  <section id="s4" onclick="verificarRespuesta(this, false)">
+    <div class="box1">
+      <h3>2.7182</h3>
+    </div>
+  </section>
+
+  <div class="feedback" id="respuesta2"></div>
+
+  <script src="form.js"></script>
+</body>
+</html>
